@@ -1,0 +1,58 @@
+/* src/components/WeatherCard.css */
+
+.weather-card {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px; /* Space around the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Transition effect */
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .city-name {
+    font-size: 24px; /* Larger font for city name */
+    margin: 0; /* Remove default margin */
+    background-color: #007bff; /* Background color for the heading */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Padding around the heading */
+    border-radius: 5px; /* Rounded corners for the heading */
+    text-align: center; /* Center the heading text */
+  }
+  
+  .temperature {
+    font-size: 20px; /* Slightly larger font for temperature */
+    margin: 10px 0; /* Margin for spacing */
+  }
+  
+  .weather-description {
+    font-size: 18px; /* Regular font size for weather description */
+    color: #555; /* Gray color for text */
+  }
+  
+  .favorite-button {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  .favorite-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-1px); /* Slight lift effect */
+  }
+  
+  /* Loading and Error styles */
+  .loading, .error {
+    text-align: center; /* Center text */
+    font-size: 18px; /* Font size */
+    color: #666; /* Gray color for messages */
+  }
+  

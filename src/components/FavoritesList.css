@@ -1,0 +1,70 @@
+/* src/components/FavoritesList.css */
+
+.favorites-list {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Space above the favorites list */
+  }
+  
+  h3 {
+    color: #333; /* Dark text color for the heading */
+    font-family: 'Montserrat', sans-serif; /* Example font */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .favorite-item {
+    display: flex; /* Flexbox for item layout */
+    justify-content: space-between; /* Space between city name and buttons */
+    align-items: center; /* Center align items vertically */
+    border-bottom: 1px solid #e1e1e1; /* Divider line between items */
+    padding: 10px 0; /* Padding above and below each item */
+  }
+  
+  .favorite-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
+  .button-group {
+    display: flex; /* Flexbox for button group */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  button {
+    padding: 8px 12px; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  .weather-button {
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text */
+  }
+  
+  .weather-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-1px); /* Slight lift effect */
+  }
+  
+  .remove-button {
+    background-color: #dc3545; /* Danger color */
+    color: white; /* White text */
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+    transform: translateY(-1px); /* Slight lift effect */
+  }
+  
+  p {
+    color: #666; /* Light text color for the message */
+    text-align: center; /* Center align message */
+  }
+  
